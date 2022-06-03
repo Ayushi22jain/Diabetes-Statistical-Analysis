@@ -6,6 +6,7 @@ Descriptive statistics summarize the characteristics of a data set. Inferential 
 
 
 
+
 --What is the Z Test?
 
 z  tests are a statistical way of testing a hypothesis when either:
