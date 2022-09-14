@@ -5,7 +5,6 @@ What is the difference between descriptive and inferential statistic?
 Descriptive statistics summarize the characteristics of a data set. Inferential statistics allow you to test a hypothesis or assess whether your data is generalizable to the broader population.The goal of inferential statistics is to make generalizations about a population. In inferential statistics, a statistic is taken from the sample data (e.g., the sample mean) that used to make inferences about the population parameter (e.g., the population mean).
 
 
-
 --What is the Z Test?
 
 z  tests are a statistical way of testing a hypothesis when either:
