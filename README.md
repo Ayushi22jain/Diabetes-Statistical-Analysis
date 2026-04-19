@@ -1,56 +1,32 @@
-# Diabetes-Statistical-Analysis
-What is the difference between descriptive and inferential statistic?
+# Diabetes Statistical Analysis
+
+This project performs a rigorous statistical evaluation of diabetes-related data. It focuses on applying Inferential Statistics to determine whether findings from sample data can be generalized to a broader population, specifically utilizing Z-tests and T-tests for hypothesis testing.
+
+## 📊 Statistical Methods Applied
+1. Inferential StatisticsMoving beyond descriptive summaries, this project uses inferential techniques to test hypotheses and assess the generalizability of the data.
+2. 2. Z-Test AnalysisUsed for hypothesis testing when the population variance is known or the sample size is large ($n \geq 30$):
+      One-Sample Z-Test: Comparing a sample mean against a known population mean.
+      Two-Sample Z-Test: Comparing means between two distinct groups (e.g., comparing scores between genders).
+3. T-Test AnalysisApplied when the population variance is unknown and the sample size is small ($n < 30$):
+   One-Sample T-Test: Utilized to compare the sample mean to the population mean using the sample standard deviation.
+   Two-Sample T-Test: Used to compare the means of two independent samples.
+   
+## 🛠️ Tech Stack
+Language: Python
+Libraries:Pandas, NumPy, Scipy (Stats), Matplotlib
+Environment: Jupyter Notebook
+
+## 📁 Repository Structure
+diabetesassigments.ipynb: The main notebook containing the statistical formulas, code execution, and results.
+population_diabetes.csv: The primary dataset representing the population parameters.
+sample.xlsx: Sample data used for comparative testing.
+README.md: Project documentation.
+
+## ⚙️ How to Use
+Clone the repository:
+Bashgit clone https://github.com/Ayushi22jain/Diabetes-Statistical-Analysis.git
+
+Open diabetesassigments.ipynb in Jupyter Notebook or Google Colab to view the hypothesis testing results and P-value interpretations.
 
 
-
-Descriptive statistics summarize the characteristics of a data set. Inferential statistics allow you to test a hypothesis or assess whether your data is generalizable to the broader population.The goal of inferential statistics is to make generalizations about a population. In inferential statistics, a statistic is taken from the sample data (e.g., the sample mean) that used to make inferences about the population parameter (e.g., the population mean).
-
-
-
---What is the Z Test?
-
-z  tests are a statistical way of testing a hypothesis when either:
-We know the population variance, or We do not know the population variance but our sample size is large n ≥ 30
-If we have a sample size of less than 30 and do not know the population variance, then we must use a t-test.
-
-
---One-Sample Z test
-
-We perform the One-Sample Z test when we want to compare a sample mean with the population mean.
-
-
---Two Sample Z Test
-
-We perform a Two Sample Z test when we want to compare the mean of two samples.
-Thus, we can conclude based on the P-value that we fail to reject the Null Hypothesis. We don’t have enough evidence to conclude that girls on average score of 10 marks more than the boys. Pretty simple, right?
-
-
---What is the t-Test?
-
-t-tests are a statistical way of testing a hypothesis when:
-We do not know the population variance
-Our sample size is small, n < 30
-
-
---One-Sample t-Test
-
-We perform a One-Sample t-test when we want to compare a sample mean with the population mean. The difference from the Z Test is that we do not have the information on Population Variance here. We use the sample standard deviation instead of population standard deviation in this case.
-
-
---Two-Sample t-Test
-
-We perform a Two-Sample t-test when we want to compare the mean of two samples.
-
-
-
-
-
-
-
-
-
---Deciding between Z Test and T-Test
-
-So when we should perform the Z test and when we should perform t-Test? It’s a key question we need to answer if we want to master statistics.
-If the sample size is large enough, then the Z test and t-Test will conclude with the same results. For a large sample size, Sample Variance will be a better estimate of Population variance so even if population variance is unknown, we can use the Z test using sample variance.
-Similarly, for a Large Sample, we have a high degree of freedom. And since t-distribution approaches the normal distribution, the difference between the z score and t score is negligible.
+👤 AuthorAyushi JainGitHub: @Ayushi22jain
